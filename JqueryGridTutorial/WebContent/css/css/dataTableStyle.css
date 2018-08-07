@@ -1,0 +1,19 @@
+#example tr.even {
+	background-color: #E2E4FF; 
+}
+
+#example tr.odd {
+	background-color: white;
+}
+
+#example tr td {
+	font-size: 12px;
+	border-color: #616179;
+	font-weight: bold;
+}
+#example{
+	overflow-x: scroll;
+	overflow-y: scroll;
+	border: 1px solid #000;
+   
+}

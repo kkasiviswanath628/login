@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+	border: 1px solid #666;
+	width: 80%;
+	margin: 20px 0 20px 0 !important;
+	font-size: 12px;
+}
+
+th,td {
+	padding: 8px 4px 12px 4px !important;
+	/* padding: 2px 4px 2px 4px !important; */
+	/* padding: 8px 13px 12px 9px !important; */
+	text-align: left;
+	vertical-align: top;
+}
+.ui-datepicker th{
+	color: #fff;
+}
+thead tr {
+	background-color: #225193;
+}
+
+th.sorted {
+	background-color: #225193;
+}
+
+th a,th a:visited {
+	/* color: black; */
+	color: #fff;
+    font-weight: 500;
+    padding-right:26px;
+    font-size: 12px;
+}
+
+th a:hover {
+	text-decoration: underline;
+	/* color: black; */
+	color: #73bfc1;
+}
+
+th.sorted a,th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+}
+
+th.sortable a {
+	background-image: url(../img/arrow_off.png);
+    background-repeat: no-repeat;
+}
+
+th.order1 a {
+	background-image: url(../img/arrow_down.png);
+    background-repeat: no-repeat;
+}
+
+th.order2 a {
+	background-image: url(../img/arrow_up.png);
+    background-repeat: no-repeat;
+}
+
+tr.odd {
+	background-color: #fff;
+	color:#000;
+	font-weight: 500;
+}
+
+tr.tableRowEven,tr.even {
+	background-color:#ccdeee;
+	color:#000;
+	font-weight: 500;
+}
+
+.group-1 {
+    font-weight:bold;
+    padding-bottom:10px;
+    border-top:1px solid black;
+}
+.group-2 {
+    font-style:italic;
+    border-top: 1px solid black;
+
+}
+
+.grouped-table tr.even {
+    background-color: #fff;
+}
+.grouped-table tr.odd {
+    background-color: #fff;
+}
+
+/********** Modified by Sarfaraz ********/
+
+.displayTableFrame {
+    background-color::#eee;
+    overflow-x: scroll;
+    overflow-y: scroll;
+   /*  height: 320px; */
+    width: 100%; 
+} 
+
+table, td, th {
+    border: 1px solid #000;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+   padding: 15px;
+}
+tbody,.pagebanner, .pagelinks, .exportlinks{
+  font-weight: 500;
+}
+.pagebanner, .pagelinks, .exportlinks {
+	position: static;
+}
+/*.exportlinks{
+	padding: 35px 0px 0px 440px;
+}
+ .pagelinks{
+	margin: 0px 0px -9px 55px;
+}  
+.pagebanner{
+	margin: 0px 0px 10px -65px; 
+} */
+/***************************************/
+

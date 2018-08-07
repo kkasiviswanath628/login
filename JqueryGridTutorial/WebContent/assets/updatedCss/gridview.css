@@ -1,0 +1,572 @@
+/* CSS Document */
+#body19
+{
+    width:994px;
+    height: 680px;
+    
+
+    margin:0 auto;
+    /*    border:1px solid #7394B0;    */
+    position:relative;
+    background: #ffffff;
+
+}
+
+
+
+
+#body20
+{
+    width:994px;
+    
+
+    margin:0 auto;
+    /*    border:1px solid #7394B0;    */
+    position:relative;
+         background: #404040;
+
+}
+#navMenu ul ul ul{
+    position:absolute;
+    visibility:hidden !important;
+    top:0px;
+left:166px;
+}
+#navMenu ul ul li:hover ul {
+    visibility:visible !important;
+}
+
+
+#error
+{
+    width:600px;
+    height:px;
+
+    margin:0 auto;
+   
+    position:relative;
+         background: #ffffff;
+
+}
+/*--------total border---*/
+#slide
+{
+    width:300px;
+    height:220px;
+    position: relative; 
+
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+
+    margin:0 auto;
+    border:1px solid blanchedalmond; 
+    position:relative;
+
+}
+#scroll {
+    width:800px;
+    height:100px;
+}
+#body4
+{
+    width:994px;
+    height:670px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+#total
+{
+    width:994px;
+    height:650px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+#total1
+{
+    width:994px;
+    height:670px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+
+
+#total_dashboard
+{
+    width:994px;
+    height:765px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+#welcome
+{
+    width:994px;
+    height:662px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+#total_mandal
+{
+    width:994px;
+    height:1100px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+#total_village
+{
+    width:994px;
+    height:700px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+
+#colection
+{
+    width:994px;
+    height:640px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+#datap
+{
+    width:994px;
+    height:676px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+}
+#index
+{
+    width:994px;
+    height:600px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+}
+#add
+{
+    width:994px;
+    height:600px;
+    margin:0 auto;
+    border:1px solid #7394B0;    
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+}
+#middle {
+    width:994px;
+    height:350px;
+}
+#view {
+    width:994px;
+    height:450px;
+}
+#edit {
+    width:994px;
+    height:340px;
+}
+
+
+#navMenu {
+    margin:0;
+    pading:0;
+}
+#navMenu ul {
+    margin:0;
+    padding:0;
+    line-heght:30px;
+}
+#navMenu li {
+    margin:1;
+    padding:1;
+    list-style:none;
+    float:left;
+    position:relative;
+    background:#15618a;
+}
+#navMenu ul li a {
+    text-align:center;
+    font-size:11pt;
+    font-family:arial;
+    text-decoration:none;
+    height:20px;
+    width:163.5px;
+    display:block;
+    color:#FFF;
+    border:1px solid #FFF;
+    text-shadow:0px 0px 0px #FFF;
+}
+#navMenu ul ul {
+    position:absolute;
+    visibility:hidden;
+    top:20px;
+}
+#navMenu ul li:hover ul {
+
+    visibility:visible;
+}
+#navMenu li:hover{
+    background:#7394B0;
+}
+#navMenu ul li:hover ul li a:hover {
+
+    background:#7394B0;
+    color:#000;
+}
+#navMenu a:hover {
+    color:#000;
+}
+.clearFloat {
+    clear:both;
+    margin:0;
+    padding:0;
+
+}
+
+a {text-decoration:none}
+
+
+
+.Mbody0
+{
+    height: 30px;
+    width : 990px;
+
+}  
+
+.Mbody1
+{
+    height: 20px;
+    width : 150px;              
+}      
+
+.Mbody2
+{
+    height: 235px;
+    /* width : 990px;   */
+    width : 1200px;              
+}  
+.Mbody3
+{
+    height: 235px;
+    width : 990px;              
+}  
+.Mb
+{
+    height:25px;
+    width : 160px;
+    float : left;
+    border: solid 2px white;
+    margin-left: 1%;    
+    background-color:   white;
+    font-size:12px;
+    padding:0px;
+    font-family:'arial';
+}
+.excel
+{
+    height:25px;
+    width : 160px;
+    float : right;
+    border: solid 2px white;
+    margin-left: 1%;    
+    background-color:   white;
+    font-size:12px;
+    padding:0px;
+    font-family:'arial';
+}
+
+.Mb0
+{
+    height:25px;
+    width : 800px;
+    float : left;
+    border: solid 2px white;
+    margin-left: 1%;    
+    background-color:   white;
+    font-size:12px;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb1
+{
+    /*            background:  url(images/eligible1.jpg) no-repeat;*/
+    height:20px;
+    width : 900px;
+    float : left;
+    border: solid 1px white;
+    margin-left: 1%; 
+    /*               background-color: whitesmoke;*/
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb2
+{
+    height:230px;
+    width : 470px;
+    float : left;
+    border: solid 3px #4863A0;
+     border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+     border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+    margin-left: 1%;    
+    background-color: white;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb3
+{
+    height:230px;
+    /* width : 470px; */
+    width : 300px;
+    float : left;
+     background-color:whitesmoke;
+     margin-left: 1%; 
+     border: solid 2px #c9c9c9;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb4
+{
+    height:230px;
+   /* width : 470px; */
+    width : 300px;
+    float : left;
+    margin-left: 1%;    
+    background-color:   white;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb5
+{
+    height:230px;
+    /* width : 470px; */
+    width : 300px;
+    float : left;
+    margin-left: 1%;    
+    background-color:   white;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb6
+{
+    height:220px;
+    /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 1px #E9E9E9;
+    margin-left: 1%;    
+    background-color:whitesmoke;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb7
+{
+    height:220px;
+   /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 1px #E9E9E9;
+    margin-left: 1%;    
+    background-color:   whitesmoke;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb8
+{
+    height:220px;
+   /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 0px #E9E9E9;
+    margin-left: 1%;
+    background-color:   white;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb9
+{
+    height:230px;
+    /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 2px #c9c9c9;
+    margin-left: 1%;
+    background-color:white;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb10
+{
+    height:220px;
+   /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 1px #E9E9E9;
+    margin-left: 1%;
+    background-color:   whitesmoke;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb11
+{
+    height:220px;
+   /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 1px #E9E9E9;
+    margin-left: 1%;
+    background-color:   whitesmoke;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb12
+{
+    height:220px;
+   /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 2px #E9E9E9;
+    margin-left: 1%;
+    background-color:   whitesmoke;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+
+.Mb13
+{
+    height:220px;
+   /* width : 470px; */
+    width : 300px;
+    float : left;
+    border: solid 1px #E9E9E9;
+    margin-left: 1%;
+    background-color:   whitesmoke;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+.Mb15
+{
+    height:320px;
+    /* width : 470px; */
+    width : 300px;
+    float : left;
+    margin-left: 1%;    
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+
+.Mb16
+{
+    height:220px;
+    width : 600px;
+    float : left;
+    border: solid 1px #E9E9E9;
+    margin-left: 1%;
+    background-color:   whitesmoke;
+    font-size:10pt;
+    padding:0px;
+    font-family:'arial';
+}
+a:link {text-decoration: none;}
+/*----------------footer----*/
+.greyBarBottom{
+    background:#ffffff;
+    height: 7px; 
+    width:994px; 
+    margin-bottom:12px;
+}
+.footer{
+    margin-top:5px; 
+    float:right;
+    margin-bottom:40px; 
+    width:100%; 
+}
+.chromestyle{
+    width: 100%;
+    font-weight: bold;
+}
+
+/* high charts */
+.hidden-container {
+    position: absolute;
+    top: -9999em;
+}
+/* new all rana charts */
+.HP-container
+{
+    border-right: #cccccc 1px solid;
+    padding-right: 0px;
+    border-top: #cccccc 1px solid;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 5px 5px 15px;
+    border-left: #cccccc 1px solid;
+    padding-top: 0px;
+    border-bottom: #cccccc 1px solid;
+    background-color: #ffffff;
+}
+.headerbox {
+    BACKGROUND-POSITION: 50% bottom; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(); PADDING-BOTTOM: 5px; COLOR: #333333; PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}

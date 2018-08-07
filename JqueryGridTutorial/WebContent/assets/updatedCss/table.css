@@ -1,0 +1,72 @@
+
+
+.content {
+font-family: sans-serif;
+font-size: small;
+}
+#rana
+{
+   
+
+    text-align: left;
+    font-size: 10pt;
+    font-family: arial;
+
+}
+
+.userTable {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: outset outset outset outset;
+	border-color: white white;
+	border-collapse: collapse;
+}
+ 
+.userTable td {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: outset outset outset outset;
+	border-color: #7394B0;
+	border-collapse: collapse;
+}
+
+.userTable th {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 10px;
+	border-style: outset outset outset outset;
+	border-color: #7394B0;
+	border-collapse: collapse;
+	background-color:#DCE3E9;
+}
+
+.odd {
+background-color: #f9f9f9;
+}
+
+.even {
+background-color: #FFFFFF;
+}
+/*-------------dashboard------------*/
+.dataflip1
+{
+    color: #000000;
+   
+    font-family:  Arial;
+    font-size: 11px;
+    font-weight: normal;
+    /*height: 20px*/
+}
+.dataflip1:hover
+{
+    background-color:white;
+}
+
+.rana{
+    border:1px solid white;
+}
+.report{
+     border:1px solid darkgrey;
+     font-family: arial;font-size: 12px;
+     width:800px;
+     background:#DAEAFF;
+}

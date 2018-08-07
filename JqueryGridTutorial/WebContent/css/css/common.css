@@ -1,0 +1,164 @@
+/* #table-primary{
+    background-color: #9BE1FF;
+}
+#table-success {
+    background-color: #D7F187;
+}
+#table-danger {
+    background-color: #F793A2;
+}
+#table-warning {
+    background-color: #FFC90E;
+}
+#table-info {
+    background-color: #EFE4B0;
+    } */
+html {
+	margin-bottom: 150px;
+}
+#example tr td{
+	font-size: 12px;
+	/* height: 12px; */
+}
+th {
+	font-size: 14px;
+	font-weight:normal;
+	height: 12px;
+}
+.blue, .green, .red, .orange, .skyblue, #blue, #green, #red, #orange,
+	#skyblue {
+	/* color: #000; */
+	
+	font-weight: bolder;
+}
+
+.blue, #blue, #table-primary {
+	/*background-color: #EFE4B0;*/
+	background-color: #93CDDD;
+	/* background-color: #CCC1DA;  */
+	/* background-color: #E6E0EC; */
+}
+
+.green, #green, #table-success {
+	background-color: #C3D69B;
+	/* background-color: #D7E4BD;  */
+	/* background-color: #EBF1DE; */
+}
+
+.red, #red, #table-danger {
+	background-color: #D99694;
+	/* background-color: #E6B9B8;  */
+	/* background-color: #F2DCDB; */
+}
+
+.orange, #orange {
+	background-color: #FAC090;
+	/* background-color: #FCD5B5;  */
+	/* background-color: #FDEADA; */
+}
+
+.skyblue, #skyblue, #table-info {
+	background-color: #93CDDD;
+	/* background-color: #B7DEE8; */
+	/* background-color: #DBEEF4; */
+}
+
+.text-blue {
+	color: #337ab7;
+}
+
+.text-green {
+	color: #449d44;
+}
+
+.text-red {
+	color: #F793A2;
+}
+
+.text-orange {
+	color: #ec971f;
+}
+
+.text-skyblue {
+	color: #31b0d5;
+}
+
+.btn-gray {
+	background-color: #eee;
+}
+
+/* .btn {
+	line-height: 0.42857;
+} */
+
+.btn-arrow-right, .btn-arrow-left {
+	position: relative;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-weight:500;
+}
+
+.btn-arrow-right {
+	padding-left: 36px;
+}
+
+.btn-arrow-left {
+	padding-right: 36px;
+}
+
+.btn-arrow-right:before, .btn-arrow-right:after, .btn-arrow-left:before,
+	.btn-arrow-left:after {
+	/* make two squares (before and after), looking similar to the button */
+	content: "";
+	position: absolute;
+	top: 5px; /* move it down because of rounded corners */
+	width: 22px; /* same as height */
+	height: 22px; /* button_outer_height / sqrt(2) */
+	background: inherit; /* use parent background */
+	border: inherit; /* use parent border */
+	border-left-color: transparent; /* hide left border */
+	border-bottom-color: transparent; /* hide bottom border */
+	border-radius: 0px 4px 0px 0px;
+	/* round arrow corner, the shorthand property doesn't accept "inherit" so it is set to 4px */
+	-webkit-border-radius: 0px 4px 0px 0px;
+	-moz-border-radius: 0px 4px 0px 0px;
+}
+
+.btn-arrow-right:before, .btn-arrow-right:after {
+	transform: rotate(45deg);
+	/* rotate right arrow squares 45 deg to point right */
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+}
+
+.btn-arrow-left:before, .btn-arrow-left:after {
+	transform: rotate(225deg);
+	/* rotate left arrow squares 225 deg to point left */
+	-webkit-transform: rotate(225deg);
+	-moz-transform: rotate(225deg);
+	-o-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+}
+
+.btn-arrow-right:before, .btn-arrow-left:before {
+	/* align the "before" square to the left */
+	left: -11px;
+}
+
+.btn-arrow-right:after, .btn-arrow-left:after {
+	/* align the "after" square to the right */
+	/* right: -11px; */
+	right: -15px;
+}
+
+.btn-arrow-right:after, .btn-arrow-left:before {
+	/* bring arrow pointers to front */
+	z-index: 1;
+}
+
+.btn-arrow-right:before, .btn-arrow-left:after {
+	/* hide arrow tails background */
+	background-color: white;
+}

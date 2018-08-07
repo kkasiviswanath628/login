@@ -1,0 +1,33 @@
+.form-control, #captchaId, #mainCaptcha {
+	margin-bottom: 10px;
+}
+
+#captchaId {
+	margin-bottom: 5px;
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+
+/* .row {
+	margin-top: 40px;
+	padding: 0 10px;
+} */
+.clickable {
+	cursor: pointer;
+}
+
+#solutionBtnStyle {
+	margin-left: 35%;
+}
+
+.panel-title {
+	text-align: center;
+}
+
+body {
+	font-family: Arial;
+	font-size: 10px;
+}

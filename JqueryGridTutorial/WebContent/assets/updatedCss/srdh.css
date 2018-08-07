@@ -1,0 +1,252 @@
+/*Menu Css*/
+
+
+
+
+
+
+
+
+
+div.paging span.current { display: inline-block; margin: 0 8px 8px 0; padding: 4px 8px; background-color: #CCCCCC; color: #000000; font-weight: bold; border: 1px solid #999999; }
+
+
+
+/* Table : Row : Data Style*/
+.tablestate tr td { padding:5px;  font:12px arial;
+color:darkslateblue; border-bottom:solid 1px #e9e9e9; }
+
+/* Table : Row : Header Style*/
+.tablestate  tr th { padding:5px;  font:bold 12px arial;
+color:#15618a; border-bottom:solid 1px #bababa;}
+/* Table : Row : Data Style*/
+.tablestate1 tr td { padding:5px;  font:12px arial;
+color:darkslateblue; border-bottom:solid 1px #e9e9e9; }
+
+/* Table : Row : Header Style*/
+.tablestate1  tr th { padding:5px;  font:bold 12px arial;
+color:#ffffff; border-bottom:solid 1px #bababa;}
+
+
+/* Table : Second Header Style */
+.bggry1{ background-color:#c9c9c9}
+
+/*Not used */
+.brdrgtgry1{border-right:solid 1px #a8a8a8 }
+
+/* Hover */
+.hover1{ background-color:#ffffff}
+
+.brdrgtgry{border-right:solid 1px #e9e9e9}
+#success{
+    /* border:1px solid #7394B0;*/
+    /* border:1px solid #a8a8a8;8*/
+    border:1px solid #a8a8a8;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.hover{ background-color:#f5f5f5}
+.hover:hover{background-color:#E4F0FA;}
+.hover1{ background-color:#ffffff}
+.hover1:hover{background-color:#E4F0FA;}
+
+/* background color */
+
+
+/* Popup Heading style */
+.Mbody0
+{
+    height: 30px;
+    width : 990px;
+
+}
+
+
+.Mb0
+{
+    height:25px;
+    width : 800px;
+    float : left;
+    border: solid 2px white;
+    margin-left: 1%;    
+    background-color:   white;
+    font-size:12px;
+    padding:0px;
+    font-family:'arial';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin:0 auto;
+    line-height: 1.7em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: #404040;
+    /* background: #404040 url(../images/ranaweb.png) no-repeat center top;*/
+}
+
+#body16 {
+    margin: 0;
+    padding: 0;
+    margin:0 auto;
+    line-height: 1.7em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: #404040;
+    /* background: #404040 url(../images/ranaweb.png) no-repeat center top;*/
+}
+
+#body25
+{
+    width:100%;
+    margin:0 auto;
+    /*    border:1px solid #7394B0;    */
+    position:relative;
+    background: #ffffff;
+/*    margin: 0 auto;
+    width: 90%;*/
+
+}
+#body26
+{
+    width:1300px;
+    margin:0 auto;
+    /*    border:1px solid #7394B0;    */
+    position:relative;
+    background: #ffffff;
+/*    margin: 0 auto;
+    width: 90%;*/
+
+}
+.body63
+{
+    width:1300px;
+    margin:0 auto;
+    /*    border:1px solid #7394B0;    */
+    position:relative;
+    background: #ffffff;
+
+}
+#body2
+{
+    width: 100%;
+    margin:0 auto;
+    /*    border:1px solid #7394B0;    */
+    position:relative;
+    background: #06547a;
+     text-align: center;
+
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    background: #06547a;
+    margin:0 auto; 
+    text-align: center;
+    padding: 4px 0;
+     position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+
+}
+
+#footerfull {
+    clear: both;
+    width: 1300px;
+    background: #06547a;
+    margin:0 auto; 
+    text-align: center;
+    padding: 4px 0;
+     position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+
+}
+html{
+     overflow: -moz-scrollbars-vertical;
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+}
+html{
+     overflow: -moz-scrollbars-Horizontal;
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+}
+#citizenProfile{
+                /* border:1px solid #7394B0;*/
+                border:3px solid #e9e9e9;
+                width:600px;
+                height:300px;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 20px;
+
+            }
+.header_inner_pagePopup{
+    font-size: 20px; 
+    text-align: center; 
+    color:#05537d; 
+    line-height: 30px;
+    padding: 5px 0;
+}
+.whper{
+    width: 100%;
+}
+.biometrics-ctnr{
+    width:200px;
+    padding:5px;
+    /*border:1px solid #cccccc;*/
+    display:table;
+}
+.biometrics-scan-ctnr{
+    float:left;
+    width:75px;
+    margin:0 10px 5px 5px;
+    border:1px solid #cccccc;
+    background-color:#FFC;
+    height:100px;
+}
+.button {
+padding: 2px; 
+margin-right: 4px;
+margin-bottom:2px;
+font-family: Arial, Tahoma, Verdana, FreeSans, sans-serif;
+text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);
+display: inline-block;
+white-space: nowrap;
+line-height:1em;
+position:relative;
+outline: none;
+overflow: visible;
+cursor: pointer;
+border-radius: 4px;
+-moz-border-radius: 4px; 
+-webkit-border-radius:4px; 
+box-shadow:1px 1px 2px 0 #CCCCCC;
+-moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+-webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+font-weight: bold;
+}
+
+.button_blue {
+border: 1px solid #305875;
+color: #FBFBFB;
+background-color: #006699;
+}
+
+.button_blue:hover {
+color: #FBFBFB;
+opacity:0.9; 
+filter:alpha(opacity=90);        
+}
+
+.button_about { 
+background-image: url(http://i47.tinypic.com/2ni0ahd.png) 3px 5px no-repeat;
+padding-left: 3px;
+padding-right: 3px;
+}

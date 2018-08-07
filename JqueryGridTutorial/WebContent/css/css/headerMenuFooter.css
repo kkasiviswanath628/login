@@ -1,0 +1,459 @@
+/* 
+    Created on : Dec 7, 2015, 2:48:31 PM
+    Author     : sarfaraz.hussain
+*/
+
+/* Body Style starts */
+
+/* body{
+	font-family: Cambria, Georgia, serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	overflow-x: scroll;
+} */
+body {
+	overflow-y: auto;
+	overflow-x: hidden;
+	color:#225193;
+}
+.active {
+	text-decoration: none;
+	background-color: #337AB7;
+	color: #fff;
+}
+.container {
+	width: 100%;
+	position: relative;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+/* Body Style ends */
+
+/* Header Style starts*/
+header {
+	height: 110px;
+	position: fixed;
+	top: 0px;
+	background-color: #225193;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: -76px;
+	height: 80px;
+	z-index: 10;
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+@media ( max-width :480px) {
+	h1 {
+		font-size: 22px;
+	}
+}
+
+#headerId {
+	text-align: center;
+	background-color: #225193;
+	width: 100%;
+	z-index: 10;
+	height: 0px;
+}
+
+#karvyLogoId {
+	width: 175px;
+	height: 60px;
+	margin: 13px 5px 5px -5px !important;
+}
+
+#aadhaarId {
+	width: 125px;
+	height: 60px;
+	margin: 13px -10px 5px 0px !important;
+}
+
+/* Header Style ends*/
+
+@media(min-width:200px){
+    #headingStyle{ 
+        text-align: center;
+        font-weight: 500;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-family: 'Arimo',sans-serif; 
+        margin-left: 50px;
+    }
+ }
+ 
+@media(max-width:480px){
+    #headingStyle{
+        font-family: 'Arimo',sans-serif; 
+        text-align: center;
+        font-weight: 100;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left:-10px;
+    }
+}
+
+/* Menu Bar Style Starts */
+.navbar {
+	border-radius: inherit;
+}
+
+.nav>li>a {
+	position: relative;
+	display: block;
+	/* modified for mobile update api*/
+	padding: 3px 20px;
+	/* padding: 3px 40px; */
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* .nav>li>a:focus, .nav>li>a:hover {
+	text-decoration: none;
+	background-color: #337AB7;
+	color: #fff;
+}
+ */
+.nav {
+	padding-left: 0;
+	margin-bottom: 3px;
+	list-style: none;
+	margin-top: 3px;
+	font-weight: 800;
+	font-family: 'Arimo', sans-serif;;
+}
+
+.navbar {
+	background-color: #eee;
+	border: none;
+	color: black;
+	font-weight: bold;
+	margin-top: 80px;
+	min-height: 40px;
+}
+
+.navbar-nav>li {
+	padding-right: 35px;
+}
+
+/* .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,
+	.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #FFF;
+} */
+
+.navbar-nav {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #000;
+}
+.navbar-inverse {
+	box-shadow: 0px 2px 1px #9C9C9C;
+}
+
+/* .navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover,
+	.navbar-inverse .nav>li.active>a {
+	background-color: #337AB7;
+	padding: 30px;
+} */
+
+
+.navbar-nav>li>a {
+	padding-top: 7px !important;
+	padding-bottom: 8px !important;
+}
+
+.navbar {
+	min-height: 35px !important
+}
+
+/* Active nav items */
+/* .navbar .nav .active>a, .navbar .nav .active>a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #337AB7;
+} */
+/* .navbar .nav .active>a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #337AB7;
+} */
+
+/* .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus {
+	color: #555555;
+	background-color: #e7e7e7;
+} */
+
+#myNavbar {
+	font-family: 'Arimo', sans-serif;;
+	font-size: 16px;
+	font-weight: bold;
+	z-index: 10;
+}
+
+/* .navbar-inverse .navbar-toggle {
+	border-color: #225193;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #225193;
+} */
+
+/* .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,
+	.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #000;
+	background-color: unset;
+} */
+
+/* Drop down Style starts*/
+
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 0px 0px;
+	margin: 5px 0px 0px;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.dropdown-menu>li>a {
+	font-family: 'Arimo',sans-serif;
+	display: block;
+	padding: 5px 20px;
+	clear: both;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.9;
+	color: #444;
+	background-color: #eee;
+}
+
+.navbar {
+	border-radius: inherit;
+}
+/*
+        	DatePicker Style
+        	*/
+.ui-widget-header {
+	border: 1px solid #aaaaaa;
+	background: #cccccc
+		url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50%
+		repeat-x;
+	color: #225193;
+	font-weight: bold;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50%
+		50% repeat-x;
+	font-weight: normal;
+	color: #225193;
+	border-radius: 10px;
+}
+
+.ui-widget-header {
+	background: #cccccc
+		url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50%
+		repeat-x;
+	color: #225193;
+	font-weight: bold;
+}
+
+.ui-widget-content {
+	background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") 50%
+		50% repeat-x;
+	color: #225193;
+}
+
+/* .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover,
+	.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+	{
+	background: #dadada url("images/ui-bg_glass_75_dadada_1x400.png") 50%
+		50% repeat-x;
+	font-weight: normal;
+	color: #225193;
+} */
+
+.ui-state-default, .ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50%
+		50% repeat-x;
+	font-weight: normal;
+	color: #225193;
+	text-align: center;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50%
+		50% repeat-x;
+	font-weight: normal;
+	color: #225193;
+	border-radius: 10px;
+}
+
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* .dropdown:hover .dropdown-menu {
+	display: block;
+} */
+
+.nav>li>a {
+	position: relative;
+	display: block;
+	/* modified for mobile update api*/
+	padding: 3px 20px;
+	/* padding: 3px 40px; */
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nav {
+	padding-left: 0;
+	margin-bottom: 3px;
+	list-style: none;
+	margin-top: 3px;
+	font-weight: 800;
+	font-family: 'Arimo',sans-serif;
+}
+
+.navbar {
+	min-height: 40px;
+}
+
+/* .nav>li>a:focus, .nav>li>a:hover {
+	text-decoration: none;
+	background-color: #337AB7;
+	color: #fff;
+} */
+
+/* Not working */
+.nav>li>a:active {
+	text-decoration: none;
+	background-color: #337AB7;
+	color: #fff;
+}
+
+
+/* Till Here */
+.dropdown-menu>li>a {
+	font-family: 'Arimo',sans-serif;
+	display: block;
+	/* padding: 1px 20px; */
+	/* padding: 8px 30px; */
+	clear: both;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.9;
+	color: #444;
+}
+
+ .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	font-family: 'Arimo',sans-serif;
+	background-image: none !important;
+	display: block;
+	padding: 1px 20px;
+	clear: both;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.9;
+	color: #fff;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	font-family: 'Arimo',sans-serif;
+	background-color: #337ab7;
+	display: block;
+	padding: 1px 20px;
+	clear: both;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.9;
+	color: #fff;
+} 
+
+
+.dropdown {
+	font-family: 'Arimo',sans-serif;
+	font-weight: bold;
+}
+
+/*Drop down style ends*/
+
+
+/* Menu Bar Style Ends */
+
+/* Footer Style Starts */
+@media screen and (max-width: 980px) {
+	footer {
+		font-size: 8px;
+		font-weight: bold;
+		line-height: 10px;
+		height: 65px;
+	}
+}
+
+@media screen and (min-width: 200px) {
+	footer {
+		font-size: 12px;
+		font-weight: normal;
+		height: 35px;
+	}
+}
+
+footer {
+	height: 35px;
+	width: 100%;
+	background: #225193;
+	/* background-color: #f2f2f2; */
+	margin-top: 8px;
+	bottom: 0px;
+	position: fixed;
+	color: white;
+	font-size: small;
+	font-family: sans-serif;
+	padding-top: 5px;
+	text-align: center;
+	background: #225193 linear-gradient(#052654, #5081C6) repeat scroll 0%
+		0%;
+	z-index: 10;
+}
+
+/* Footer Style Ends */
